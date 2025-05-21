@@ -66,7 +66,7 @@ class CreateTaskView(APIView):
         serializer = TaskSerializer(data=data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
-        return Response({'data':serializer.data, 'message':"Added Task Successfully", 'status':status.HTTP_201_CREATED})    
+        return Response({'data':serializer.data, 'message':"Added Task Successfully", 'status':status.HTTP_201_CREATED})
 
 
 class TaskListView(APIView):
