@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'task',
     'corsheaders',
 ]
-
+# middlewares
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

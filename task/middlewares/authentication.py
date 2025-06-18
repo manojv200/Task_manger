@@ -3,7 +3,7 @@ from django.conf import settings
 from django.http import JsonResponse
 
 from task.models import TblUser
-
+# middleware
 
 class AuthenticationMiddleware:
     def __init__(self, get_response):

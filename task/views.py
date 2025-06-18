@@ -10,7 +10,6 @@ from task.models import Task
 from task.serializers import RegistrationSerializer, LoginSerializer, TaskSerializer
 
 
-# Create your views here.
 
 class AuthenticationCheck():
     def __init__(self, authentication_required=True):

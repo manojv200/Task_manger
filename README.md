@@ -1,20 +1,24 @@
 Django Server Setup
-1.Create and activate a virtual environment in your system.
 
-2.Clone the repository from
-https://github.com/manojv200/Task_manger.git and navigate into the project folder.
+1st Step:
+create virtual env
+Clone git repository task_manager from 'https://github.com/manojv200/Task_manger.git'
 
-3.Install required Python packages listed in requirements.txt.
+After cloning install requirements.txt using 'pip install -r requirements.txt'
 
-4.Run database migrations with python manage.py migrate to create the SQLite database.
+2nd Step:
+run python manage.py migrate for create sqlite db.
 
-5.Start the Django development server by running python manage.py runserver.
+3rd Step:
+run python manage.py runserver
 
 React Setup
-1.Ensure Node.js is installed on your system.
 
-2.Navigate to the React app directory, located at task_manager_app inside the Django project folder.
+1st Step:
+Install node in System
+Inside Django directory, goto the path of react app,ie.'cd task_manager_app'
 
-3.Install the React project dependencies using npm install.
+2nd Step:
+Inside that directory run 'npm run dev'
 
-4.Start the React development server with npm run dev.
+
